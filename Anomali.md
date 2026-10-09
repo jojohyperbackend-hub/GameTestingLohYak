@@ -21,7 +21,7 @@ src/scenes/battle.py XYYY
 src/scenes/menu_main.py XYYYYY
 src/scenes/level_menu_main.py XYYY
 src/scenes/loadout.py XYYYYY
-data/story.json
+data/story.json XYYYY
 src/scenes/story.py
 src/scenes/level_select.py
 src/scenes/achievement.py

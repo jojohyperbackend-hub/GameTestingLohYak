@@ -1,0 +1,52 @@
+{
+  "prologue": {
+    "title": "Prolog: Panggilan Guak",
+    "paragraphs": [
+      "Dunia akademis sedang diserang. Sekawanan Guak Orc telah merangsek masuk dari Celah Pengetahuan yang terlupakan, mengubah setiap ruang belajar yang mereka lewati menjadi medan kebingungan.",
+      "Kamu, seorang kadet baru, dipanggil untuk mengangkat Pedang Elemen pusaka: bilah yang hanya bisa diisi daya oleh jawaban yang benar dan pikiran yang tajam.",
+      "Setiap serangan yang kamu lancarkan harus dibuktikan lewat soal yang muncul di hadapanmu. Jawab dengan tepat, dan pedangmu akan berkobar atau membeku dengan kekuatan penuh. Jawab dengan keliru, dan serangan itu akan meleset tanpa bekas.",
+      "Tiga fase pertempuran menanti: Fondasi, Taktikal, dan Apex. Di ujung sana, seekor Guak Orc raksasa menunggu, dibalut aura yang menyerap kelengahan siapa pun yang mendekat.",
+      "Asah elemenmu. Percayai hitunganmu. Dan mulailah pertempuran."
+    ]
+  },
+  "chapter_1": {
+    "title": "Bab 1: Fase Fondasi",
+    "intro_paragraphs": [
+      "Gerbang Fondasi masih berdiri, meski retak di beberapa sisi. Seekor Guak Orc penjaga berdiri menghalangi jalan, tampak belum terlatih namun tetap waspada.",
+      "Ini adalah ujian paling dasar: apakah kamu mampu menjaga fokus saat tekanan pertama datang. Soal-soal di sini masih ramah, dirancang untuk mengasah refleks sebelum medan menjadi lebih kejam.",
+      "Angkat pedangmu. Guak pertama telah menantang."
+    ],
+    "victory_paragraphs": [
+      "Guak Orc penjaga Fondasi tumbang. Gerbang retak itu akhirnya runtuh sepenuhnya, membuka jalan menuju wilayah yang lebih dalam.",
+      "Kamu merasakan Pedang Elemenmu sedikit lebih ringan di tangan, seolah ia mulai mengenali ritme berpikirmu.",
+      "Namun ini baru permulaan. Di depan sana, lawan-lawan berikutnya sudah mulai mengatur siasat."
+    ]
+  },
+  "chapter_2": {
+    "title": "Bab 2: Fase Taktikal",
+    "intro_paragraphs": [
+      "Guak Orc di fase ini bukan lagi penjaga sembarangan. Ia mengamati setiap celah, mengincar saat Action Point-mu menumpuk, dan akan menghantam balik lebih keras ketika nyawanya menipis.",
+      "Soal pilihan ganda kini lebih licin, dan beberapa serangan besar menuntutmu menjawab lewat uraian panjang, bukan sekadar menebak.",
+      "Jangan asal menyerang. Hitung, susun strategi, dan jaga Elemenmu tetap relevan dengan pertahanan lawan."
+    ],
+    "victory_paragraphs": [
+      "Siasat Guak Orc Taktikal akhirnya kandas melawan ketelitianmu. Ia tumbang dengan satu geraman panjang sebelum sunyi.",
+      "Pedang Elemenmu kini terasa menyatu dengan gerakanmu sendiri. Kamu mulai memahami kapan harus menyerang, dan kapan harus bertahan.",
+      "Tapi auranya, aura yang jauh lebih pekat, sudah mulai terasa dari kejauhan. Fase Apex menanti."
+    ]
+  },
+  "chapter_3": {
+    "title": "Bab 3: Fase Apex",
+    "intro_paragraphs": [
+      "Di sinilah ia menunggu: Guak Orc Apex, raksasa yang tubuhnya membesar oleh akumulasi kebingungan yang ia serap selama bertahun-tahun.",
+      "Aura di sekelilingnya mempercepat setiap gerakanmu menjadi berisiko. Soal-soalnya adalah yang tersulit, dan setiap kesalahan kecil bisa berakibat fatal.",
+      "Ini bukan lagi ujian refleks atau siasat. Ini ujian ketahanan, kejelian, dan keberanian untuk tetap percaya pada jawabanmu sendiri saat tekanan memuncak.",
+      "Angkat pedangmu untuk terakhir kalinya. Guak Apex telah menunggu cukup lama."
+    ],
+    "victory_paragraphs": [
+      "Guak Orc Apex runtuh dengan guncangan yang menggetarkan seluruh arena. Auranya memudar, dan untuk pertama kalinya sejak serangan dimulai, ruang belajar terasa tenang kembali.",
+      "Kamu berdiri di tengah reruntuhan, Pedang Elemen masih berkilau di tanganmu. Gelar 'Penakluk Guak' kini resmi menjadi milikmu.",
+      "Celah Pengetahuan yang dulu retak kini mulai menutup. Namun jauh di dalam dirimu, kamu tahu ini bukan akhir — hanya jeda sebelum ujian berikutnya datang."
+    ]
+  }
+}

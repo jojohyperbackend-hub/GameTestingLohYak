@@ -1,0 +1,121 @@
+{
+  "levels": [
+    {
+      "level_id": 1,
+      "name": "Fase Fondasi",
+      "background_file": "level_1.png",
+      "enemy_id": "enemy_1",
+      "enemy_display_name": "Orc",
+      "enemy_tint_applied": false,
+      "enemy_has_aura": false,
+      "enemy_enlarged": false,
+      "enemy_stats": {
+        "hp": 90,
+        "atk": 18,
+        "def": 8,
+        "spd": 80
+      },
+      "enemy_ai_type": "static_basic",
+      "enemy_ai_params": {},
+      "quiz_rules": {
+        "attack": { "type": "mc", "difficulty": "easy" },
+        "skill": { "type": "mc", "difficulty": "easy" },
+        "ultimate": { "type": "mc", "difficulty": "easy" }
+      },
+      "time_limit_seconds": {
+        "mc": null,
+        "essay": null
+      },
+      "essay_validation": null,
+      "first_clear_reward": {
+        "potion_heal": 2,
+        "title": null
+      }
+    },
+    {
+      "level_id": 2,
+      "name": "Fase Taktikal",
+      "background_file": "level_2.png",
+      "enemy_id": "enemy_2",
+      "enemy_display_name": "Orc",
+      "enemy_tint_applied": true,
+      "enemy_has_aura": false,
+      "enemy_enlarged": false,
+      "enemy_stats": {
+        "hp": 150,
+        "atk": 26,
+        "def": 14,
+        "spd": 95
+      },
+      "enemy_ai_type": "reactive_priority",
+      "enemy_ai_params": {
+        "hp_threshold_strong_attack": 0.4,
+        "strong_attack_multiplier": 1.5,
+        "strong_attack_delay": 15,
+        "ap_threshold_disrupt": 4,
+        "disrupt_next_av_bonus": 20,
+        "normal_attack_multiplier": 1.0
+      },
+      "quiz_rules": {
+        "attack": { "type": "mc", "difficulty": "medium_hard" },
+        "skill": { "type": "essay", "difficulty": null },
+        "ultimate": { "type": "essay", "difficulty": null }
+      },
+      "time_limit_seconds": {
+        "mc": 20,
+        "essay": 45
+      },
+      "essay_validation": {
+        "min_keyword_group_ratio": 0.5,
+        "round_up": true
+      },
+      "first_clear_reward": {
+        "potion_heal": 3,
+        "title": null
+      }
+    },
+    {
+      "level_id": 3,
+      "name": "Fase Apex",
+      "background_file": "level_3.png",
+      "enemy_id": "boss",
+      "enemy_display_name": "Orc",
+      "enemy_tint_applied": true,
+      "enemy_has_aura": true,
+      "enemy_enlarged": true,
+      "enemy_stats": {
+        "hp": 300,
+        "atk": 30,
+        "def": 14,
+        "spd": 90
+      },
+      "enemy_ai_type": "boss_pattern",
+      "enemy_ai_params": {
+        "aura_hero_next_av_bonus_per_turn": 10,
+        "normal_turn_attack_multiplier": 0.6,
+        "normal_turn_attack_count": 2,
+        "normal_turn_attack_gap_seconds": 0.3,
+        "strong_turn_interval": 4,
+        "strong_turn_strong_attack_multiplier": 1.0,
+        "strong_turn_normal_attack_multiplier": 0.6
+      },
+      "quiz_rules": {
+        "attack": { "type": "mc", "difficulty": "hard" },
+        "skill": { "type": "essay", "difficulty": null },
+        "ultimate": { "type": "essay", "difficulty": null }
+      },
+      "time_limit_seconds": {
+        "mc": 15,
+        "essay": 40
+      },
+      "essay_validation": {
+        "min_keyword_group_ratio": 1.0,
+        "round_up": false
+      },
+      "first_clear_reward": {
+        "potion_heal": 0,
+        "title": "Penakluk Guak"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+# Python / Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Byte-compiled / Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyGame & Game Assets
+asset/
+assets/
+*.wav
+*.mp3
+*.ogg
+*.png
+*.jpg
+*.jpeg
+*.ttf
+
+# Editor & IDE Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.user
+
+# System Files
+.DS_Store
+Thumbs.db

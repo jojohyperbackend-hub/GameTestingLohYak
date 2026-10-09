@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "idle": {
+      "file": "main.png",
+      "frames": 9,
+      "fps": 12
+    },
+    "walk": {
+      "file": "main.png",
+      "frames": 9,
+      "fps": 12
+    },
+    "attack01": {
+      "file": "main.png",
+      "frames": 9,
+      "fps": 12,
+      "impact_frames": [4, 5]
+    },
+    "attack02": {
+      "file": "main.png",
+      "frames": 9,
+      "fps": 12,
+      "impact_frames": [4, 5]
+    },
+    "attack03": {
+      "file": "main.png",
+      "frames": 9,
+      "fps": 12,
+      "impact_frames": [4, 5]
+    },
+    "hit": {
+      "file": "main.png",
+      "frames": 9,
+      "fps": 12
+    },
+    "death": {
+      "file": "main.png",
+      "frames": 9,
+      "fps": 12
+    }
+  },
+  "enemy": {
+    "idle": {
+      "file": "main.png",
+      "frames": 9,
+      "fps": 12
+    },
+    "walk": {
+      "file": "main.png",
+      "frames": 9,
+      "fps": 12
+    },
+    "attack01": {
+      "file": "main.png",
+      "frames": 9,
+      "fps": 12,
+      "impact_frames": [4, 5]
+    },
+    "attack02": {
+      "file": "main.png",
+      "frames": 9,
+      "fps": 12,
+      "impact_frames": [4, 5]
+    },
+    "hit": {
+      "file": "main.png",
+      "frames": 9,
+      "fps": 12
+    },
+    "death": {
+      "file": "main.png",
+      "frames": 9,
+      "fps": 12
+    }
+  }
+}

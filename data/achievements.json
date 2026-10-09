@@ -1,0 +1,122 @@
+[
+  {
+    "id": "first_blood",
+    "name": "First Blood",
+    "description": "Menang pertarungan pertama",
+    "rarity": "bronze",
+    "unlocked": false,
+    "unlocked_at": null
+  },
+  {
+    "id": "perfect_l1",
+    "name": "Perfect Clear: Level 1",
+    "description": "Menang Level 1 tanpa salah jawab",
+    "rarity": "gold",
+    "unlocked": false,
+    "unlocked_at": null
+  },
+  {
+    "id": "perfect_l2",
+    "name": "Perfect Clear: Level 2",
+    "description": "Menang Level 2 tanpa salah jawab",
+    "rarity": "gold",
+    "unlocked": false,
+    "unlocked_at": null
+  },
+  {
+    "id": "perfect_l3",
+    "name": "Perfect Clear: Boss",
+    "description": "Kalahkan Boss tanpa salah jawab",
+    "rarity": "platinum",
+    "unlocked": false,
+    "unlocked_at": null
+  },
+  {
+    "id": "melt_master",
+    "name": "Melt Master",
+    "description": "Picu Melt 5 kali dalam 1 pertarungan",
+    "rarity": "silver",
+    "unlocked": false,
+    "unlocked_at": null
+  },
+  {
+    "id": "ap_optimizer",
+    "name": "AP Optimizer",
+    "description": "Akhiri pertarungan dengan 5 AP tersisa",
+    "rarity": "silver",
+    "unlocked": false,
+    "unlocked_at": null
+  },
+  {
+    "id": "no_item_run",
+    "name": "Purist",
+    "description": "Menang Level 2 atau 3 tanpa memakai Potion Heal",
+    "rarity": "silver",
+    "unlocked": false,
+    "unlocked_at": null
+  },
+  {
+    "id": "scholar",
+    "name": "Scholar",
+    "description": "50 jawaban benar total",
+    "rarity": "bronze",
+    "unlocked": false,
+    "unlocked_at": null
+  },
+  {
+    "id": "genius",
+    "name": "Genius",
+    "description": "100 jawaban benar total",
+    "rarity": "silver",
+    "unlocked": false,
+    "unlocked_at": null
+  },
+  {
+    "id": "encyclopedia",
+    "name": "Encyclopedia",
+    "description": "200 jawaban benar total",
+    "rarity": "gold",
+    "unlocked": false,
+    "unlocked_at": null
+  },
+  {
+    "id": "speed_answer",
+    "name": "Speed Demon",
+    "description": "Jawab benar < 3 detik, 10 kali",
+    "rarity": "silver",
+    "unlocked": false,
+    "unlocked_at": null
+  },
+  {
+    "id": "essay_master",
+    "name": "Essay Master",
+    "description": "20 soal Essai benar berturut-turut",
+    "rarity": "gold",
+    "unlocked": false,
+    "unlocked_at": null
+  },
+  {
+    "id": "element_swap",
+    "name": "First Swap",
+    "description": "Ganti Elemen pertama kali",
+    "rarity": "bronze",
+    "unlocked": false,
+    "unlocked_at": null
+  },
+  {
+    "id": "swap_master",
+    "name": "Chameleon",
+    "description": "Ganti Elemen 10 kali dalam 1 pertarungan",
+    "rarity": "silver",
+    "unlocked": false,
+    "unlocked_at": null
+  },
+  {
+    "id": "potion_hoarder",
+    "name": "Potion Hoarder",
+    "description": "Punya 5 Potion Heal di inventory",
+    "rarity": "bronze",
+    "unlocked": false,
+    "unlocked_at": null
+  }
+]

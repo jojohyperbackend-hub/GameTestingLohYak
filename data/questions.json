@@ -1,0 +1,185 @@
+[
+  {
+    "id": "math_001",
+    "type": "mc",
+    "difficulty": 1,
+    "subject": "Math",
+    "question": "Jika 3x + 15 = 45, berapakah nilai dari x?",
+    "options": ["A. 5", "B. 10", "C. 15", "D. 20"],
+    "answer_index": 1
+  },
+  {
+    "id": "math_002",
+    "type": "mc",
+    "difficulty": 1,
+    "subject": "Math",
+    "question": "Sebuah persegi panjang memiliki panjang 12 cm dan lebar 8 cm. Berapakah luas dan kelilingnya secara berurutan?",
+    "options": [
+      "A. Luas = 96 cm², Keliling = 40 cm",
+      "B. Luas = 96 cm², Keliling = 20 cm",
+      "C. Luas = 48 cm², Keliling = 40 cm",
+      "D. Luas = 80 cm², Keliling = 32 cm"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "math_003",
+    "type": "mc",
+    "difficulty": 2,
+    "subject": "Math",
+    "question": "Sebuah toko memberi diskon 20% untuk baju seharga Rp150.000,00. Berapa harga baju setelah diskon?",
+    "options": ["A. Rp110.000,00", "B. Rp120.000,00", "C. Rp125.000,00", "D. Rp130.000,00"],
+    "answer_index": 1
+  },
+  {
+    "id": "math_004",
+    "type": "mc",
+    "difficulty": 2,
+    "subject": "Math",
+    "question": "Berapakah nilai rata-rata (mean) dari data: 6, 8, 7, 9, 10?",
+    "options": ["A. 7.5", "B. 8.0", "C. 8.5", "D. 9.0"],
+    "answer_index": 1
+  },
+  {
+    "id": "math_005",
+    "type": "essay",
+    "difficulty": 2,
+    "subject": "Math",
+    "question": "Sebuah tangga sepanjang 10 meter disandarkan pada dinding. Jarak ujung bawah tangga ke dinding adalah 6 meter. Hitunglah tinggi dinding yang dicapai tangga!",
+    "keywords": [
+      ["pythagoras", "teorema pythagoras", "dalil pythagoras"],
+      ["8 meter", "8 m", "delapan meter"]
+    ]
+  },
+  {
+    "id": "math_006",
+    "type": "essay",
+    "difficulty": 3,
+    "subject": "Math",
+    "question": "Budi membeli 2 buku dan 3 pensil seharga Rp19.000,00. Ani membeli 3 buku dan 1 pensil seharga Rp22.000,00. Tentukan harga 1 buku dan 1 pensil!",
+    "keywords": [
+      ["6.000", "rp6.000", "6000", "enam ribu"],
+      ["3.000", "rp3.000", "3000", "tiga ribu"]
+    ]
+  },
+  {
+    "id": "fisika_001",
+    "type": "mc",
+    "difficulty": 1,
+    "subject": "Physics",
+    "question": "Sebuah mobil bergerak dengan kecepatan konstan 20 m/s selama 15 detik. Berapa jarak total yang ditempuh?",
+    "options": ["A. 150 m", "B. 200 m", "C. 300 m", "D. 400 m"],
+    "answer_index": 2
+  },
+  {
+    "id": "fisika_002",
+    "type": "mc",
+    "difficulty": 1,
+    "subject": "Physics",
+    "question": "Sebuah benda bermassa 5 kg ditarik dengan gaya 20 N di atas lantai licin. Berapakah percepatan benda?",
+    "options": ["A. 2 m/s²", "B. 4 m/s²", "C. 5 m/s²", "D. 10 m/s²"],
+    "answer_index": 1
+  },
+  {
+    "id": "fisika_003",
+    "type": "mc",
+    "difficulty": 2,
+    "subject": "Physics",
+    "question": "Benda bermassa 2 kg berada pada ketinggian 10 m (g = 10 m/s²). Berapakah energi potensial gravitasinya?",
+    "options": ["A. 100 Joule", "B. 200 Joule", "C. 300 Joule", "D. 400 Joule"],
+    "answer_index": 1
+  },
+  {
+    "id": "fisika_004",
+    "type": "mc",
+    "difficulty": 3,
+    "subject": "Physics",
+    "question": "Suatu gelombang memiliki panjang gelombang 2 m dan cepat rambat 340 m/s. Berapakah frekuensinya?",
+    "options": ["A. 170 Hz", "B. 340 Hz", "C. 680 Hz", "D. 850 Hz"],
+    "answer_index": 0
+  },
+  {
+    "id": "fisika_005",
+    "type": "essay",
+    "difficulty": 3,
+    "subject": "Physics",
+    "question": "Bola bermassa 1 kg dijatuhkan bebas dari ketinggian 20 m (g = 10 m/s²). Hitung kecepatan bola saat berada di ketinggian 5 m!",
+    "keywords": [
+      ["17,32 m/s", "17.32 m/s", "10√3", "10 akar 3"],
+      ["kekekalan energi mekanik", "energi mekanik", "em1 em2", "hukum kekekalan energi"]
+    ]
+  },
+  {
+    "id": "fisika_006",
+    "type": "essay",
+    "difficulty": 2,
+    "subject": "Physics",
+    "question": "Dua resistor R1 = 6 Ω dan R2 = 12 Ω dirangkai paralel dan dihubungkan ke tegangan 12 V. Hitung hambatan pengganti (Rp) dan arus total (I)!",
+    "keywords": [
+      ["4 ohm", "4Ω", "4 ω", "hambatan pengganti 4", "rp 4"],
+      ["3 ampere", "3a", "arus 3", "i 3"]
+    ]
+  },
+  {
+    "id": "umum_001",
+    "type": "mc",
+    "difficulty": 1,
+    "subject": "General Knowledge",
+    "question": "Selat yang memisahkan Pulau Jawa dan Pulau Sumatra adalah...",
+    "options": ["A. Selat Malaka", "B. Selat Sunda", "C. Selat Lombok", "D. Selat Makassar"],
+    "answer_index": 1
+  },
+  {
+    "id": "umum_002",
+    "type": "mc",
+    "difficulty": 1,
+    "subject": "General Knowledge",
+    "question": "Planet dalam Tata Surya yang dijuluki sebagai 'Planet Merah' adalah...",
+    "options": ["A. Venus", "B. Mars", "C. Yupiter", "D. Saturnus"],
+    "answer_index": 1
+  },
+  {
+    "id": "umum_003",
+    "type": "mc",
+    "difficulty": 2,
+    "subject": "General Knowledge",
+    "question": "Ilmuwan penemu antibiotik Penisilin adalah...",
+    "options": ["A. Alexander Fleming", "B. Louis Pasteur", "C. Marie Curie", "D. Robert Koch"],
+    "answer_index": 0
+  },
+  {
+    "id": "umum_004",
+    "type": "mc",
+    "difficulty": 2,
+    "subject": "General Knowledge",
+    "question": "Markas besar Perserikatan Bangsa-Bangsa (PBB) berada di kota...",
+    "options": ["A. Jenewa", "B. New York", "C. London", "D. Paris"],
+    "answer_index": 1
+  },
+  {
+    "id": "umum_005",
+    "type": "essay",
+    "difficulty": 2,
+    "subject": "General Knowledge",
+    "question": "Jelaskan apa yang dimaksud dengan Efek Rumah Kaca, sebutkan 2 gas utama penyebabnya, dan dampaknya bagi bumi!",
+    "keywords": [
+      ["terperangkap panas", "panas terperangkap", "efek rumah kaca"],
+      ["co2", "karbon dioksida"],
+      ["ch4", "metana"],
+      ["pemanasan global", "global warming"]
+    ]
+  },
+  {
+    "id": "umum_006",
+    "type": "essay",
+    "difficulty": 2,
+    "subject": "General Knowledge",
+    "question": "Sebutkan tujuan Trias Politika serta 3 lembaga pelaksananya di Indonesia beserta tugas utamanya!",
+    "keywords": [
+      ["eksekutif"],
+      ["legislatif"],
+      ["yudikatif"],
+      ["mencegah penumpukan kekuasaan", "pemisahan kekuasaan"]
+    ]
+  }
+]

@@ -1,0 +1,158 @@
+from pathlib import Path
+from typing import Final, Tuple, Any, Dict
+
+
+BASE_DIR: Final[Path] = Path(__file__).resolve().parent.parent
+ASSETS_DIR: Final[Path] = BASE_DIR / "assets"
+DATA_DIR: Final[Path] = BASE_DIR / "data"
+MAIN_CHARACTER_ASSET_DIR: Final[Path] = ASSETS_DIR / "MainCharater"
+BACKGROUND_ASSET_DIR: Final[Path] = ASSETS_DIR / "Background"
+ENEMY_ASSET_DIR: Final[Path] = ASSETS_DIR / "Enemy"
+
+QUESTIONS_FILE: Final[Path] = DATA_DIR / "questions.json"
+LEVELS_FILE: Final[Path] = DATA_DIR / "levels.json"
+STORY_FILE: Final[Path] = DATA_DIR / "story.json"
+ACHIEVEMENTS_FILE: Final[Path] = DATA_DIR / "achievements.json"
+SPRITE_CONFIG_FILE: Final[Path] = DATA_DIR / "sprite_config.json"
+SAVE_DATA_FILE: Final[Path] = DATA_DIR / "save_data.json"
+SAVE_DATA_BACKUP_FILE: Final[Path] = DATA_DIR / "save_data_backup.json"
+CACHE_QUESTIONS_FILE: Final[Path] = DATA_DIR / "cache_questions.json"
+
+SFX_ATTACK_FILENAME: Final[str] = "attack.wav"
+FONT_PIXEL_FILENAME: Final[str] = "pixel.ttf"
+SFX_ATTACK_PATH: Final[Path] = ASSETS_DIR / SFX_ATTACK_FILENAME
+FONT_PIXEL_PATH: Final[Path] = ASSETS_DIR / FONT_PIXEL_FILENAME
+
+SCREEN_WIDTH: Final[int] = 640
+SCREEN_HEIGHT: Final[int] = 360
+ASPECT_RATIO: Final[float] = SCREEN_WIDTH / SCREEN_HEIGHT
+TARGET_FPS: Final[int] = 60
+
+SPRITE_SCALE: Final[int] = 2
+
+ZOOM_MIN: Final[float] = 0.5
+ZOOM_MAX: Final[float] = 2.0
+ZOOM_STEP: Final[float] = 0.1
+ZOOM_DEFAULT: Final[float] = 1.0
+
+HUD_TIMELINE_Y_START: Final[int] = 0
+HUD_TIMELINE_Y_END: Final[int] = 40
+ARENA_Y_START: Final[int] = 40
+ARENA_Y_END: Final[int] = 270
+BOTTOM_PANEL_Y_START: Final[int] = 270
+BOTTOM_PANEL_Y_END: Final[int] = 360
+
+HERO_HOME: Final[Tuple[int, int]] = (170, 240)
+ENEMY_HOME: Final[Tuple[int, int]] = (470, 240)
+ATTACK_APPROACH_DISTANCE: Final[int] = 70
+HIT_KNOCKBACK_DISTANCE: Final[int] = 10
+MISS_DODGE_DISTANCE: Final[int] = 14
+ELEMENT_SWAP_HOP_HEIGHT: Final[int] = 8
+ANTICIPATION_RECOIL_DISTANCE: Final[int] = 8
+
+IDLE_BOB_AMPLITUDE: Final[float] = 2.0
+IDLE_BOB_PERIOD_SECONDS: Final[float] = 1.2
+
+HERO_BASE_HP: Final[int] = 120
+HERO_BASE_ATK: Final[int] = 30
+HERO_BASE_DEF: Final[int] = 10
+HERO_BASE_SPD: Final[int] = 100
+
+HERO_LEVEL_CLEAR_HP_GROWTH: Final[int] = 15
+HERO_LEVEL_CLEAR_ATK_GROWTH: Final[int] = 4
+HERO_LEVEL_CLEAR_DEF_GROWTH: Final[int] = 2
+
+MOMENTUM_ATK_BONUS_PER_STACK: Final[float] = 0.05
+MOMENTUM_MAX_STACK: Final[int] = 5
+
+ACTION_POINT_MAX: Final[int] = 5
+ACTION_POINT_START: Final[int] = 1
+ACTION_POINT_GAIN_ON_CORRECT_ATTACK: Final[int] = 1
+
+ATTACK_AP_COST: Final[int] = 0
+SKILL_AP_COST: Final[int] = 2
+ULTIMATE_AP_COST: Final[int] = 4
+ELEMENT_SWAP_AP_COST: Final[int] = 1
+POTION_HEAL_AP_COST: Final[int] = 0
+
+ATTACK_ACTION_DELAY: Final[int] = 0
+SKILL_ACTION_DELAY: Final[int] = 10
+ULTIMATE_ACTION_DELAY: Final[int] = 20
+POTION_HEAL_ACTION_DELAY: Final[int] = 25
+ELEMENT_SWAP_ACTION_DELAY: Final[int] = 15
+
+ATTACK_MULTIPLIER_FIRE: Final[float] = 1.0
+ATTACK_MULTIPLIER_ICE: Final[float] = 0.9
+SKILL_MULTIPLIER_FIRE: Final[float] = 1.8
+SKILL_MULTIPLIER_ICE: Final[float] = 1.6
+ULTIMATE_MULTIPLIER_FIRE: Final[float] = 3.0
+ULTIMATE_MULTIPLIER_ICE: Final[float] = 2.6
+
+SKILL_ICE_ENEMY_DELAY_BONUS: Final[int] = 15
+ULTIMATE_ICE_ENEMY_DELAY_BONUS: Final[int] = 30
+
+ELEMENT_SWAP_NEXT_ATTACK_BONUS: Final[float] = 0.10
+ELEMENT_SWAP_MAX_PER_TURN: Final[int] = 1
+
+MELT_DAMAGE_MULTIPLIER: Final[float] = 2.0
+MARK_DURATION_HERO_TURNS: Final[int] = 2
+
+ACTION_VALUE_BASE_UNIT: Final[int] = 10000
+
+POTION_HEAL_PERCENT_OF_MAX_HP: Final[float] = 0.30
+POTION_INVENTORY_START: Final[int] = 2
+POTION_INVENTORY_MAX: Final[int] = 9
+
+ULTIMATE_LOOPS: Final[int] = 2
+ULTIMATE_SLOWMO_TIME_SCALE: Final[float] = 0.4
+
+PARTICLE_POOL_MAX_ACTIVE: Final[int] = 150
+
+SPRITE_FRAME_WIDTH: Final[int] = 128
+SPRITE_FRAME_HEIGHT: Final[int] = 96
+SPRITE_FRAME_COUNT_DEFAULT: Final[int] = 9
+SPRITE_ROWS_PER_ANIMATION: Final[int] = 1
+SPRITE_FPS_DEFAULT: Final[int] = 12
+SPRITE_IMPACT_FRAME_INDICES_DEFAULT: Final[Tuple[int, int]] = (4, 5)
+SPRITE_SHEET_EXPECTED_WIDTH_DEFAULT: Final[int] = SPRITE_FRAME_WIDTH * SPRITE_FRAME_COUNT_DEFAULT
+SPRITE_SHEET_EXPECTED_HEIGHT_DEFAULT: Final[int] = SPRITE_FRAME_HEIGHT * SPRITE_ROWS_PER_ANIMATION
+
+ANTICIPATION_DURATION_SECONDS: Final[float] = 0.12
+DASH_IN_DURATION_SECONDS: Final[float] = 0.25
+DASH_OUT_DURATION_SECONDS: Final[float] = 0.3
+HITSTOP_DURATION_SECONDS: Final[float] = 0.06
+HIT_FLASH_DURATION_SECONDS: Final[float] = 0.08
+SKILL_CHARGE_DURATION_SECONDS: Final[float] = 0.3
+ULTIMATE_SCREEN_DIM_DURATION_SECONDS: Final[float] = 0.3
+ULTIMATE_CAMERA_ZOOM_TARGET: Final[float] = 1.15
+MELT_EFFECT_DURATION_SECONDS: Final[float] = 0.4
+ELEMENT_SWAP_AURA_TRANSITION_DURATION_SECONDS: Final[float] = 0.2
+ENEMY_TELEGRAPH_DURATION_SECONDS: Final[float] = 0.2
+BOSS_SECOND_ACTION_DELAY_SECONDS: Final[float] = 0.3
+ENEMY_DEATH_FADE_DURATION_SECONDS: Final[float] = 0.6
+
+DAMAGE_NUMBER_POP_DURATION_SECONDS: Final[float] = 0.12
+DAMAGE_NUMBER_RISE_DURATION_SECONDS: Final[float] = 0.8
+DAMAGE_NUMBER_RISE_DISTANCE: Final[int] = 40
+DAMAGE_NUMBER_FADE_DURATION_SECONDS: Final[float] = 0.3
+HP_BAR_SHADOW_DELAY_SECONDS: Final[float] = 0.4
+TIMELINE_ICON_SHIFT_DURATION_SECONDS: Final[float] = 0.25
+TOAST_ACHIEVEMENT_HOLD_DURATION_SECONDS: Final[float] = 2.0
+SCENE_TRANSITION_FADE_DURATION_SECONDS: Final[float] = 0.3
+COMMAND_BUTTON_PRESS_SCALE: Final[float] = 0.95
+
+SCORE_POINTS_PER_CORRECT_ANSWER: Final[int] = 100
+SCORE_POINTS_PER_FAST_ANSWER: Final[int] = 25
+SCORE_FAST_ANSWER_THRESHOLD_SECONDS: Final[float] = 3.0
+SCORE_POINTS_PER_HP_PERCENT_REMAINING: Final[int] = 5
+
+API_CONFIG: Final[Dict[str, Any]] = {
+    "base_url": "https://opentdb.com/api.php",
+    "timeout": 5,
+    "cache_duration": 3600,
+    "max_retries": 2,
+    "max_calls_per_minute": 10,
+}
+
+ESSAY_LEVEL_2_MIN_KEYWORD_GROUP_RATIO: Final[float] = 0.5
+ESSAY_LEVEL_3_MIN_KEYWORD_GROUP_RATIO: Final[float] = 1.0

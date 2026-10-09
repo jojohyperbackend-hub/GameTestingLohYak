@@ -18,9 +18,9 @@ src/animation.py XYYYYYYYYUY
 src/pov/camera.py XYYYY
 src/scenes/quiz_popup.py XYYYYYYYZ
 src/scenes/battle.py XYYY
-src/scenes/menu_main.py
-src/scenes/level_menu_main.py
-src/scenes/loadout.py
+src/scenes/menu_main.py XYYYYY
+src/scenes/level_menu_main.py XYYY
+src/scenes/loadout.py XYYYYY
 data/story.json
 src/scenes/story.py
 src/scenes/level_select.py
